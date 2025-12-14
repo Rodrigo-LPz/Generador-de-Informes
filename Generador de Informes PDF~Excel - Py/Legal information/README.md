@@ -261,7 +261,7 @@
     - Tipografía Helvetica clara.
 
 📊 Formato de los Informes Excel (Cada informe incluye)
-  ◈ Tablas
+  ◈ Tabla
     - Fila 1: Título del informe (celdas combinadas A1:Q1)
     - Fila 3: Encabezados de columnas (con estilos)
     - Fila 4+: Datos de médicos y citas
@@ -289,6 +289,7 @@
     - Ancho de columnas ajustado automáticamente al contenido
     - Paneles congelados (encabezados fijos al desplazarse).
     - Alineación centrada en encabezados y a la izquierda en datos.
+    - Tipografía Helvetica clara.
 
 
 🗃️ Estructura de la Base de Datos
@@ -333,13 +334,15 @@
     └─────────────┬──────────────────┬────────────────┘
                   │                  │
                   ▼                  ▼
-        ┌──────────────────┐  ┌──────────────────┐
-        │ db_connection.py │  │  export_pdf.py   │
-        │                  │  │  export_excel.py │
-        │                  │  │                  │
-        │ • Conexión MySQL │  │ • Generación PDF │
-        │ • Gestión errores│  │ • Formato docs   │
-        └─────────┬────────┘  └────────┬─────────┘
+        ┌──────────────────┐  ┌────────────────────┐
+        │ db_connection.py │  │  export_pdf.py     │
+        │                  │  │  export_excel.py   │
+        │                  │  │                    │
+        │                  │  │ • Generación PDF   │
+        │                  │  │ • Generación Excel │
+        │ • Conexión MySQL │  │ • Formato docs     │
+        │ • Gestión errores│  │ • Formato excel    │
+        └─────────┬────────┘  └────────┬───────────┘
                   │                    │
                   ▼                    ▼
           ┌──────────────┐     ┌──────────────┐
