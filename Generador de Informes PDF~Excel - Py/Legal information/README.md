@@ -18,7 +18,7 @@
 
 ✨ Estructura del Proyecto
   ◊ Antes de Ejecutar (previo a la ejecución):
-      Generador de Informes PDF - Py/
+      Generador de Informes PDF~Excel - Py/
       │
       ├── Legal information/
       │   ├── READ.md           # Información sobre el proyecto (de que trata, como usarlo, licencia mejoras, etc.).
@@ -36,11 +36,12 @@
       ├── export_excel.py       # Módulo de exportación a Excel.
       └── main.py               # Interfaz gráfica principal.
 
-  ◊ Antes de Ejecutar (previo a la ejecución):
-      Generador de Informes PDF - Py/
+  ◊ Después de Ejecutar (previo a la ejecución):
+      Generador de Informes PDF~Excel - Py/
       │
       ├── __pycache__/                              # Archivos compilados de Python auto-generados (autogeneración).
       │   ├── db_connection.cpython-313.pyc
+      │   ├── export_excel.cpython-313.pyc
       │   └── export_pdf.cpython-313.pyc
       │
       ├── Informes PDF impresos/                    # Carpeta de informes PDF exportados.
@@ -485,6 +486,7 @@
 <hr>  
 ¡Gracias por usar Generador de Informes - Sistema de Gestión Hospitalaria! 🏥📄
 Si encuentras algún problema o tienes sugerencias, no dudes en abrir un issue en GitHub.
+
 
 
 
